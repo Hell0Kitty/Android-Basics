@@ -1,0 +1,1 @@
+This Repository contains some of m homework for Udacity Android Basics.

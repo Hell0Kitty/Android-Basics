@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">JustJava</string>
+    <string name="Name">姓名：<xliff:g id="name" example="Tom">%s</xliff:g></string>
+    <string name="hint">姓名</string>
+    <string name="order">提交订单</string>
+    <string name="quantity">数量</string>
+    <string name="summary">收据</string>
+    <string name="thank">谢谢您的惠顾</string>
+    <string name="topping1">奶油</string>
+    <string name="topping2">热可可</string>
+    <string name="topping_price1">￥2</string>
+    <string name="topping_price2">￥3</string>
+    <string name="toppings">佐料</string>
+    <string name="total_price">合计： ￥</string>
+    <string name="coffee_order_for"><xliff:g id="name" example="Amy">%s</xliff:g>的订单</string>
+</resources>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.breadsup.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Questions"
+            android:text="@string/ask_preference"
+            android:textStyle="italic" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            style="@style/CheckBoxes"
+            android:text="@string/avocade_cake" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            style="@style/CheckBoxes"
+            android:text="@string/banana_cake" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            style="@style/CheckBoxes"
+            android:text="@string/brownie" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            style="@style/CheckBoxes"
+            android:text="@string/cheese_cake" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            style="@style/CheckBoxes"
+            android:text="@string/coffee_cake" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            style="@style/CheckBoxes"
+            android:text="@string/donuts" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            style="@style/CheckBoxes"
+            android:text="@string/ice_cream_cake" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            style="@style/CheckBoxes"
+            android:text="@string/pancake" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            style="@style/CheckBoxes"
+            android:text="@string/sweet_bun" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            style="@style/CheckBoxes"
+            android:text="@string/toasts" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            style="@style/CheckBoxes"
+            android:text="@string/waffle" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            style="@style/CheckBoxes"
+            android:text="@string/white_bread" />
+
+        <TextView
+            style="@style/Questions"
+            android:text="@string/ask_frequency"
+            android:textStyle="italic" />
+
+
+        <RadioGroup
+            android:id="@+id/group1"
+            android:layout_marginEnd="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/button1"
+                style="@style/RadioButton"
+                android:onClick="onClick1"
+                android:text="Seldom"/>
+
+            <RadioButton
+                android:id="@+id/button2"
+                style="@style/RadioButton"
+                android:onClick="onClick1"
+                android:text="1/Month"/>
+
+            <RadioButton
+                android:id="@+id/button3"
+                style="@style/RadioButton"
+                android:onClick="onClick1"
+                android:text="1/Week"/>
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/group2"
+            android:layout_marginEnd="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/button4"
+                style="@style/RadioButton"
+                android:onClick="onClick2"
+                android:text="2/Week"/>
+
+            <RadioButton
+                android:id="@+id/button5"
+                style="@style/RadioButton"
+                android:onClick="onClick2"
+                android:text="1/Day     "/>
+
+            <RadioButton
+                android:id="@+id/button6"
+                style="@style/RadioButton"
+                android:onClick="onClick2"
+                android:text="More"/>
+
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/Questions"
+            android:text="@string/ask_gender"
+            android:textStyle="italic" />
+        <RadioGroup
+            android:id="@+id/group3"
+            android:layout_marginEnd="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/button7"
+                style="@style/RadioButton"
+                android:text="Mr"/>
+
+            <RadioButton
+                android:id="@+id/button8"
+                style="@style/RadioButton"
+                android:text="Neither"/>
+
+            <RadioButton
+                android:id="@+id/button9"
+                style="@style/RadioButton"
+                android:text="Miss"/>
+
+
+        </RadioGroup>
+
+
+
+        <!--<TextView-->
+            <!--style="@style/Questions"-->
+            <!--android:text="@string/ask_age"-->
+            <!--android:textStyle="italic" />-->
+        <!--<RadioGroup-->
+            <!--android:id="@+id/group4"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_marginEnd="16dp">-->
+        <!--<RadioButton-->
+            <!--android:id="@+id/button10"-->
+            <!--style="@style/RadioButton"-->
+            <!--android:layout_marginTop="0dp"-->
+            <!--android:text="<20"/>-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/button11"-->
+            <!--style="@style/RadioButton"-->
+            <!--android:layout_marginTop="0dp"-->
+            <!--android:text="20-40"/>-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/button12"-->
+            <!--style="@style/RadioButton"-->
+            <!--android:layout_marginTop="0dp"-->
+            <!--android:text="40-60"/>-->
+        <!--<RadioButton-->
+            <!--android:id="@+id/button13"-->
+            <!--style="@style/RadioButton"-->
+            <!--android:layout_marginTop="0dp"-->
+            <!--android:text=">60"/> </RadioGroup>-->
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textAllCaps="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:text="submit"
+            android:onClick="submit"/>
+    </LinearLayout>
+
+
+</ScrollView>

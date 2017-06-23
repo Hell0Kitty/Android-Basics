@@ -1,0 +1,23 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BreadsUp!</string>
+    <string name="avocade_cake">Avocade Cake</string>
+    <string name="banana_cake">Banana Cake</string>
+    <string name="cheese_cake">Cheese Cake</string>
+    <string name="coffee_cake">Coffee Cake</string>
+    <string name="donuts">Donuts</string>
+    <string name="brownie">Brownie</string>
+    <string name="ice_cream_cake">Ice Cream Cake</string>
+    <string name="pancake">Pancake</string>
+    <string name="waffle">Waffle</string>
+    <string name="sweet_bun">Sweet Bun</string>
+    <string name="toasts">Toasts</string>
+    <string name="white_bread">White Bread</string>
+
+    <string name="ask_preference">* What kind of breads/cakes do you like?</string>
+    <string name="ask_frequency">* How often do you eat breads/cakes?</string>
+    <string name="our_bakery">* Do you know <xliff:g name="Store" example="Fujita Bakery" >%s</xliff:g> ?</string>
+    <string name="ask_location">* You are from ?</string>
+    <string name="ask_age">* You are ?</string>
+    <string name="ask_gender">* Mr or Miss ?</string>
+    <string name="ask_suggestion">* Any other breads/cakes you want to see in our shop?</string>
+</resources>
